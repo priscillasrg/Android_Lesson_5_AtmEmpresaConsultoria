@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/empresa_detalhes"
+        android:textColor="#f2712c"
+        android:textSize="20dp" />
+
+    <ScrollView
+        android:layout_width="321dp"
+        android:layout_height="404dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="8dp"
+        android:background="#ebebeb">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="17dp"
+                android:padding="@dimen/padding_padrao"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet ultrices neque, vitae aliquet leo. Quisque porttitor dui lacus. Morbi sit amet nibh ac ex malesuada congue et nec sapien. Quisque semper velit ut mattis fermentum. Vivamus elementum, orci sed sollicitudin ullamcorper, elit quam fermentum felis, in varius ante magna ullamcorper lacus. Ut non semper magna. Nullam in iaculis elit, eu faucibus dolor. Pellentesque eget interdum nulla, laoreet faucibus lacus. Curabitur in metus ut sapien ultrices tincidunt nec non sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer pharetra ante eu lobortis fermentum. Phasellus laoreet arcu elit.  Nullam lobortis mollis tortor vitae interdum. Aenean viverra tellus sed finibus fringilla. Phasellus dictum maximus mollis. Sed sed nulla eget magna molestie porta. Aenean dignissim nisl quis felis feugiat pretium. Integer fermentum, libero sit amet rutrum consequat, ex enim lobortis odio, nec elementum libero mi et purus. Nunc mauris sem, posuere et risus nec, imperdiet rutrum diam.  Aliquam euismod maximus est, vitae vulputate dui cursus et. Vivamus at risus dignissim, cursus leo sit amet, consequat risus. Vivamus vel sem vitae sem sodales eleifend. Sed vel malesuada sapien. Aenean vehicula interdum ex ac fringilla. Maecenas consectetur ultrices enim, non luctus est efficitur a. Vestibulum tincidunt velit arcu, ut pretium justo lobortis sed.  Cras et nulla ut diam tempor venenatis sit amet in mi. Morbi tincidunt mi eu tortor congue sagittis. Phasellus vitae mollis ligula. Praesent dapibus lacus sit amet risus pellentesque, quis vulputate ex rhoncus. Nullam convallis felis sed lacinia elementum. Sed eu quam quis felis blandit lacinia. Nam vel purus bibendum, euismod sem sit amet, auctor neque.  Ut nunc turpis, luctus nec ornare ut, pulvinar vitae lorem. Integer eu malesuada justo. Aenean massa ipsum, semper nec ex nec, bibendum ultrices mauris. Cras egestas quam nec sem efficitur ullamcorper. Vivamus in tempus lorem. Integer at urna at dui interdum sagittis id sit amet nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec rutrum quam mauris, sed tincidunt mi lobortis in. In id accumsan nisl, sit amet sagittis eros. Maecenas aliquam eget turpis ut iaculis. Sed pharetra euismod tortor, sit amet consequat leo." />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
